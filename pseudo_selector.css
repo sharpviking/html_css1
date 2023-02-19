@@ -1,0 +1,22 @@
+body {
+  margin: 10px;
+}
+p::first-letter {
+  font-weight: bolder;
+  font-size: 141%;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+::selection {
+  background-color: pink;
+}
+p::before {
+  content: "#####";
+  display: block;
+}
+p::after {
+  content: "#####";
+  display: block;
+}

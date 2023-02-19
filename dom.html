@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quidem
+      consequatur veniam nisi architecto commodi id ipsa corrupti quos ratione.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+      cupiditate quos consequatur eos saepe deserunt nulla provident at
+      repudiandae voluptates minima expedita fugiat, in vitae minus aliquam
+      laboriosam. Accusamus harum maxime tenetur ducimus quo!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam neque
+      tempore cupiditate accusantium, soluta tenetur perferendis unde fuga!
+    </p>
+    <p><button onclick="changee_color" id="button0">click me</button></p>
+    <p><button onclick="change_color" id="button1">another click me</button></p>
+    <script>
+      const button0 = document.getElementById("button0");
+      button0.addEventListener("click", function onclick(event) {
+        document.body.style.color = "salmon";
+      });
+      const button1 = document.getElementById("button1");
+      button1.addEventListener("click", function onclick(event) {
+        document.body.style.color = "green";
+      });
+    </script>
+  </body>
+</html>

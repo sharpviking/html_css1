@@ -1,0 +1,29 @@
+body {
+  margin: 10px;
+  height: 200vh;
+}
+.boxes {
+  border: 3px solid lightgray;
+  position: relative;
+}
+
+.box {
+  width: 7rem;
+  height: 7rem;
+}
+
+.box-one {
+  background-color: yellow;
+}
+.box-two {
+  background-color: tomato;
+  position: fixed;
+  top: 0;
+  left: 2rem;
+  right: 2rem;
+  width: auto;
+  z-index: 87900;
+}
+.box-three {
+  background-color: dodgerblue;
+}

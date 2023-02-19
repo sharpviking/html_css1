@@ -1,0 +1,10 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(231, 90, 13, 0.629931196111257) 53%
+  );
+}
